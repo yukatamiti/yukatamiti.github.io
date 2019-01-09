@@ -1,0 +1,104 @@
+/*body 背景入*/
+body{
+    background: url(photo/65121573_p13.png) center center no-repeat;
+    background-size: cover;
+}
+
+/*header フォント入*/
+header{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+}
+header h1{
+    font-size: 36px;
+    color:cornflowerblue;
+}
+
+/*フォント指定*/
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color:#72828C;
+    font-size 20px;
+}
+
+/*リンク*/
+a{
+    color:#6C72C7;
+    text-decoration: none;
+}
+a:hover{
+    color:#C6CFE6;
+    text-decoration: none;
+}
+
+
+
+/*main 画像伸びた*/
+#main{
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    background: url(photo/48775272_p0_master1200.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+}
+
+/*アニメーション★★*/
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+
+
+/*menu  横並び*/
+#menu ul{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+/*
+#menu img{
+    opacity: 0;
+    animation: fadein 0.3s ease 0.3s 1 normal forwards;
+}
+*/
+
+
+h2{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+#pu{
+    text-align: center;
+}
+
+#pu img{
+    width: 450px;
+}
+
+
+
+footer{
+    font-size: 5px;
+    text-align: center;
+    margin-top: 64px;
+}
